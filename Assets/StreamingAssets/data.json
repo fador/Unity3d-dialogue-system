@@ -1,0 +1,203 @@
+{
+    "nodes": [
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 4.0,
+                "y": 61.0,
+                "width": 147.0,
+                "height": 173.0
+            },
+            "character": "Duck",
+            "node": "Duck_01",
+            "dialogue": [
+                "Kwak kwak"
+            ],
+            "answers": [
+                {
+                    "option": "I know",
+                    "target": "Duck_02"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 183.0,
+                "y": 262.0,
+                "width": 180.0,
+                "height": 173.0
+            },
+            "character": "Duck",
+            "node": "Duck_02",
+            "dialogue": [
+                "Kwak kwak!!"
+            ],
+            "answers": [
+                {
+                    "option": "Yea, I know!",
+                    "target": "Duck_03"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 396.0,
+                "y": 430.0,
+                "width": 264.0,
+                "height": 201.0
+            },
+            "character": "Duck",
+            "node": "Duck_03",
+            "dialogue": [
+                "Kwakak"
+            ],
+            "answers": [
+                {
+                    "option": "Okay okay!",
+                    "target": "Duck_04"
+                },
+                {
+                    "option": "Rude",
+                    "target": "DuckRude"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 591.0,
+                "y": 139.0,
+                "width": 174.0,
+                "height": 229.0
+            },
+            "character": "Duck",
+            "node": "Duck_04",
+            "dialogue": [
+                "Kwah"
+            ],
+            "answers": [
+                {
+                    "option": "Yea yea",
+                    "target": "Duck_05"
+                },
+                {
+                    "option": "No wai",
+                    "target": "Duck_06"
+                },
+                {
+                    "option": "Tea?",
+                    "target": "DuckTease"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 857.0,
+                "y": 447.0,
+                "width": 162.0,
+                "height": 173.0
+            },
+            "character": "Duck",
+            "node": "Duck_05",
+            "dialogue": [
+                ".."
+            ],
+            "answers": [
+                {
+                    "option": "Bye",
+                    "target": "END"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 832.0,
+                "y": 722.0,
+                "width": 148.0,
+                "height": 173.0
+            },
+            "character": "",
+            "node": "asd",
+            "dialogue": [
+                "dialogue"
+            ],
+            "answers": [
+                {
+                    "option": "tempOption",
+                    "target": "END"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 897.0,
+                "y": 231.0,
+                "width": 148.0,
+                "height": 173.0
+            },
+            "character": "",
+            "node": "Duck_06",
+            "dialogue": [
+                "=("
+            ],
+            "answers": [
+                {
+                    "option": "Pat head",
+                    "target": "END"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 881.0,
+                "y": 36.0,
+                "width": 148.0,
+                "height": 173.0
+            },
+            "character": "",
+            "node": "DuckTease",
+            "dialogue": [
+                "Teasekwak?"
+            ],
+            "answers": [
+                {
+                    "option": "Sorry",
+                    "target": "END"
+                }
+            ]
+        },
+        {
+            "pos": {
+                "serializedVersion": "2",
+                "x": 1029.0,
+                "y": 621.0,
+                "width": 148.0,
+                "height": 173.0
+            },
+            "character": "",
+            "node": "DuckRude",
+            "dialogue": [
+                "Kwak?"
+            ],
+            "answers": [
+                {
+                    "option": "...",
+                    "target": "END"
+                }
+            ]
+        }
+    ],
+    "endPos": {
+        "serializedVersion": "2",
+        "x": 1163.0,
+        "y": 385.0,
+        "width": 57.0,
+        "height": 62.0
+    }
+}
